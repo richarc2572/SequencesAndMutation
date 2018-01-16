@@ -493,6 +493,7 @@ def two_sequences_in_parallel(sequence1, sequence2):
 
     return count
 
+
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------

@@ -23,8 +23,8 @@ def main():
     #    number_of_copy_and_changes_to_perform
     # to see what happens in larger cases.
     # ------------------------------------------------------------------
-    number_of_mutations_to_perform = 1000
-    number_of_copy_and_changes_to_perform = 1000
+    number_of_mutations_to_perform = 500
+    number_of_copy_and_changes_to_perform = 500
 
     zeros1 = make_list(number_of_mutations_to_perform)
     zeros2 = make_list(number_of_copy_and_changes_to_perform)
@@ -87,6 +87,7 @@ def copy_and_change_list(numbers):
 
     copy[len(copy) - 1] = copy[(len(copy) - 1)] + 1
     return copy
+
 
 # ----------------------------------------------------------------------
 # If this module is running at the top level (as opposed to being
